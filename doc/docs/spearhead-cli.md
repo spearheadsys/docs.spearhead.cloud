@@ -1,4 +1,4 @@
-# Spearhead Cloud CLI tools
+# Spearhead Cloud CLI tool
 
 The Spearhead Cloud CLI tool allows you to manage your Spearhead Cloud infrastructure. While the Cloud Portal is being developed this tool is the preferred method for managing your infrastructure.
 
