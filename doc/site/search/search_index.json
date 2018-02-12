@@ -1,0 +1,94 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Spearhead Cloud Documentation\n\n\n\n\nGet started with the Spearhead Cloud today. Sign-up for a \nfree trial\n.\n\n\n\n\nOverview\n\n\nThe Spearhead Cloud allows you to quickly and easily set-up high performance bare metal containers and virtual machines.\n\n\nCompute\n\n\nThe Spearhead Cloud delivers bare metal performance without the use of virtualization for our containers which allows you to dynamically scale in real-time without any downtime.\nOur virtualization technology is based on the well known KVM virtualization stack and provides close to bare metal performance for your legacy workloads.\n\n\nStorage\n\n\nWithout the hassle of shared block storage, we know precisely what our hardware can handle and design accordingly so that every tenant gets its fair share of the required IO.\n\n\nNetwork\n\n\nSpearhead Cloud provides a complete software-defined-networking stack allowing for full IP stacks, easy management.\n\n\nSecurity\n\n\nSpearhead Cloud leverages well known Zones technology to keep tenants from seeing each others data but also assures that everyone gets their share of the resources.\n\n\nDebugging and Visibility\n\n\nThe Spearhead Cloud provides complete visibility for your systems and applications though dynamic tracing, complex monitoring and native docker logging.", 
+            "title": "Spearhead Cloud"
+        }, 
+        {
+            "location": "/#spearhead-cloud-documentation", 
+            "text": "Get started with the Spearhead Cloud today. Sign-up for a  free trial .", 
+            "title": "Spearhead Cloud Documentation"
+        }, 
+        {
+            "location": "/#overview", 
+            "text": "The Spearhead Cloud allows you to quickly and easily set-up high performance bare metal containers and virtual machines.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/#compute", 
+            "text": "The Spearhead Cloud delivers bare metal performance without the use of virtualization for our containers which allows you to dynamically scale in real-time without any downtime.\nOur virtualization technology is based on the well known KVM virtualization stack and provides close to bare metal performance for your legacy workloads.", 
+            "title": "Compute"
+        }, 
+        {
+            "location": "/#storage", 
+            "text": "Without the hassle of shared block storage, we know precisely what our hardware can handle and design accordingly so that every tenant gets its fair share of the required IO.", 
+            "title": "Storage"
+        }, 
+        {
+            "location": "/#network", 
+            "text": "Spearhead Cloud provides a complete software-defined-networking stack allowing for full IP stacks, easy management.", 
+            "title": "Network"
+        }, 
+        {
+            "location": "/#security", 
+            "text": "Spearhead Cloud leverages well known Zones technology to keep tenants from seeing each others data but also assures that everyone gets their share of the resources.", 
+            "title": "Security"
+        }, 
+        {
+            "location": "/#debugging-and-visibility", 
+            "text": "The Spearhead Cloud provides complete visibility for your systems and applications though dynamic tracing, complex monitoring and native docker logging.", 
+            "title": "Debugging and Visibility"
+        }, 
+        {
+            "location": "/start/", 
+            "text": "Getting Started\n\n\n\n\nGet started with the Spearhead Cloud today. Sign-up for a \nfree trial\n.\n\n\n\n\nOverview\n\n\nThis document will describe how to easily set-up a Spearhead Cloud account. In less than 3 minutes and you will be on your way deploying containers and virtual machines.\n\n\nCreate a Spearhead Cloud  account\n\n\n\n\nCreate a Spearhead Cloud account.\n\n\nAdd your SSH key(s).\n\n\n\n\nThats it. Now you can choose one or all of the options below to continue:\n\n\n\n\nhttps://docs.spearhead.cloud/cloud-portal\n\n\nhttps://docs.spearhead.cloud/spearhead-cli", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/start/#getting-started", 
+            "text": "Get started with the Spearhead Cloud today. Sign-up for a  free trial .", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/start/#overview", 
+            "text": "This document will describe how to easily set-up a Spearhead Cloud account. In less than 3 minutes and you will be on your way deploying containers and virtual machines.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/start/#create-a-spearhead-cloud-account", 
+            "text": "Create a Spearhead Cloud account.  Add your SSH key(s).   Thats it. Now you can choose one or all of the options below to continue:   https://docs.spearhead.cloud/cloud-portal  https://docs.spearhead.cloud/spearhead-cli", 
+            "title": "Create a Spearhead Cloud  account"
+        }, 
+        {
+            "location": "/datacenters/", 
+            "text": "", 
+            "title": "Datacenters"
+        }, 
+        {
+            "location": "/containers/", 
+            "text": "", 
+            "title": "Containers"
+        }, 
+        {
+            "location": "/vms/", 
+            "text": "", 
+            "title": "Virtual Machines"
+        }, 
+        {
+            "location": "/cloud-portal/", 
+            "text": "Spearhead Cloud Portal\n\n\n\n\nGet started with the Spearhead Cloud today. Sign-up for a \nfree trial\n.\n\n\nThis part of our documentation is still being worked on. If we can help you in the meantime please send an email to \nhelp@spearhead.cloud\n.", 
+            "title": "Cloud Portal"
+        }, 
+        {
+            "location": "/cloud-portal/#spearhead-cloud-portal", 
+            "text": "Get started with the Spearhead Cloud today. Sign-up for a  free trial .  This part of our documentation is still being worked on. If we can help you in the meantime please send an email to  help@spearhead.cloud .", 
+            "title": "Spearhead Cloud Portal"
+        }, 
+        {
+            "location": "/spearhead-cli/", 
+            "text": "", 
+            "title": "Spearhead CLI"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+site_name: Spearhead Cloud Documentation
+pages:
+  - Spearhead Cloud: index.md
+  - Getting Started: start.md
+  - Datacenters: datacenters.md
+  - Storage: storage.md
+  - Networking: network.md
+  - Containers: containers.md
+  - Virtual Machines: vms.md
+  - Spearhead Cloud Tools:
+    - Cloud Portal: cloud-portal.md
+    - Spearhead CLI: spearhead-cli.md
+    - Spearhead Docker CLI: spearhead-docker-cli.md
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'
+    accent: 'red'
+  logo: 'img/sphsp.png'
+  icon: 'cloud'
+  # favicon: 'img/favicon.ico'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://code.spearhead.cloud/Spearhead/'
+    - type: 'twitter'
+      link: 'https://twitter.com/spearhead_sys'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/spearhead-systems-srl/'
