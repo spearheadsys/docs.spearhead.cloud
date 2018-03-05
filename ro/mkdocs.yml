@@ -1,0 +1,32 @@
+site_name: Documentatie Spearhead Cloud (beta)
+pages:
+  - Spearhead Cloud: index.md
+  - Pentru Inceput: start.md
+  - Centre de date: datacenters.md
+  - Stocare: storage.md
+  - Retelistica:
+      - Retele: network.md
+      - Firewall: network.md
+      - DNS: network.md
+  - Containere: containers.md
+  - Masini Virtuale: vms.md
+  - Spearhead Cloud Tools:
+    - Cloud Portal: cloud-portal.md
+    - Spearhead CLI: spearhead-cli.md
+    - Spearhead Docker CLI: spearhead-docker-cli.md
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'
+    accent: 'red'
+  logo: 'img/sphsp.png'
+  icon: 'cloud'
+  # favicon: 'img/favicon.ico'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://code.spearhead.cloud/Spearhead/'
+    - type: 'twitter'
+      link: 'https://twitter.com/spearhead_sys'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/spearhead-systems-srl/'

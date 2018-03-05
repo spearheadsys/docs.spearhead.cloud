@@ -1,0 +1,36 @@
+site_name: Spearhead Cloud (beta) Documentation
+pages:
+  - Spearhead Cloud: index.md
+  - Getting Started: start.md
+  - Datacenters: datacenters.md
+  - Networking:
+      - Networks: network.md
+      - Firewall: firewall.md
+      - DNS: dns.md
+  - Containers & Virtual machines:
+    - Containers: containers.md
+    - Infrastructure Containers: infrastructure-containers.md
+    - Virtual Machines: vms.md
+    - Working with instances:
+        - Starting and Stopping: startstop.md
+        - Connecting to your instances: connecting.md
+  - Spearhead Cloud Tools:
+    - Cloud Portal: cloud-portal.md
+    - Spearhead CLI: spearhead-cli.md
+    - Spearhead Docker CLI: spearhead-docker-cli.md
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'
+    accent: 'red'
+  logo: 'img/sphsp.png'
+  icon: 'cloud'
+  # favicon: 'img/favicon.ico'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://code.spearhead.cloud/Spearhead/'
+    - type: 'twitter'
+      link: 'https://twitter.com/spearhead_sys'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/spearhead-systems-srl/'
