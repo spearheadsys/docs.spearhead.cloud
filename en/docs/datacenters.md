@@ -9,6 +9,7 @@ Here is our list of public datacenters.
 Located in Bucharest, Romania.
 
 * CloudAPI endpoint: ```https://eu-ro-1.api.spearhead.cloud```
+* Docker endpoint: ```https://ro-1.docker.spearhead.cloud```
 
 ## RO-2
 Located in Cluj Napoca, Romania.
