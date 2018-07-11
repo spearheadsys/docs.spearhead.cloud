@@ -1,6 +1,6 @@
 # DNS
 
-> The Container Name Service is currently not enabled for public use.
+> The Container Name Service is *now* enabled for public use. 
 
 ## Overview
 Spearhead Container Name Service (CNS) is a completely automatic, universal DNS for your containers and VMs on Spearhead Cloud. It is tightly integrated with Spearhead Cloud to eliminate complexity and simplify operations.
@@ -16,13 +16,10 @@ Spearhead CNS offers two facilities:
 
 Once activated, running instances in Spearhead Compute Service with public network interfaces will be available in DNS using the following FQDN patterns:
 
-<instance name>.inst.<account uuid>.<data center name>.spearhead.cloud
-<service name>.svc.<account uuid>.<data center name>.triton.zone
+<instance name OR alias>.inst.<account uuid OR login_name>.<data center name>.spearhead.cloud
+<service name>.svc.<account uuid OR login_name>.<data center name>.spearhead.cloud
 
-When activated for an account, running instances in Spearhead Compute Service with private network interfaces will be available in DNS and accessible inside the data center using the following FQDN patterns:
-
-<instance name>.inst.<account uuid>.<data center name>.spearhead.systems
-<service name>.svc.<account uuid>.<data center name>.cns.spearhead.systems
+> DNS names for instances are currently unavaiable from the Spearhead Cloud Tools (```spearhead get <instance name>```). It is possible to retrieve them by getting the instance name and running dig against the known format domain.
 
 
-All the DNS names for an instance can be found in the instance details in Cloud Portal or via the Spearhead Cloud Tool (```spearhead get <instance name>```).
+> Last edit: 2018 Wed 11 Jul 16:44 GMT+3 
