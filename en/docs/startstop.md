@@ -1,5 +1,5 @@
 # Start and stopping instances
-Before you can use the Spearhead Cloud you must create and account and provide your billing details.
+Before you can use the Spearhead Cloud you must create an account and provide your billing details.
 
 ## Using the Spearhead Cloud Portal
 TBD: shortly
@@ -15,7 +15,7 @@ Now you can use the ```spearhead``` command to create your infrastructure contai
 The command parameters define:
 
 1. -n (--name) provides the name of the container. In our case it is "webdeb".
-2. -w "waits" for the container to be created before returning the prompt.
+2. -w "waits" for the instance to be created before returning the prompt.
 3. We are using debian-8 as our image<sub>1</sub>.
 4. We are using s1-general-1-2-100 as our package<sub>2</sub>.
 
@@ -31,7 +31,7 @@ Once you are finished using your instances you can delete them using the ```spea
 Using the ```spearhead``` cli tool is the most convenient way to quickly delete your instances (including Docker containers). By issuing ```spearhead instance delete <UUID>``` you can remove any instance including Docker containers.
 
 ### Delete using the Spearhead Cloud Portal
-To delete an instance using the Spearhead Cloud Portal
+TBD: To delete an instance using the Spearhead Cloud Portal
 
 # Restart policies
 
@@ -53,3 +53,5 @@ When restarting your container automatically (the cases mentioned above) there i
 The main way that this is different from Docker Inc's docker is that with Docker Inc's docker, if you restart the docker daemon all containers will be stopped and those with --restart=always will be started again. With spearhead-docker restarting the management systems will not touch your container but restarting the compute node the container lives on will.
 
 If you want your container to always be running you most likely want to specify --restart=always to avoid your containers being stopped when a CN reboots.
+
+> Last edit: 2018 Thu 26 Jul 19:50 GMT+3 

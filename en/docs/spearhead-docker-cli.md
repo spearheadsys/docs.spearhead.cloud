@@ -36,4 +36,5 @@ To complete the installation, run *sudo spearhead-docker-install* to install the
 ## Usage
 Once installed, use *spearhead-docker* and *spearhead-compose* in place of docker and docker-compose when interacting with the Spearhead Cloud.
 
-https://docs.joyent.com/public-cloud/instances/docker/how#networks
+
+> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 

@@ -100,3 +100,5 @@ spearhead instance create \
 ```
 ### instance details
 To view all of your instance's details run ```spearhead instance get -j some-instance```. This will give you a full JSON blob of your instance details. You can optionally pipe the instance details output through the ```json``` command and parse or perform other operations.
+
+> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 

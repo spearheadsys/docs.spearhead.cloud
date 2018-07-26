@@ -1,7 +1,7 @@
 # Data centers
 >A datacenter in the Spearhead Cloud is also an API endpoint which you can manage via the [Spearhead Cloud Tools](https://docs.spearhead.cloud/cloud-portal).
 
-> As of March 2018 only the [ro-1 datacenter](https://eu-ro-1.api.spearhead.cloud) is active. Please note that the certificate is self-signed! You must use --insecure for the Spearhead Cloud CLI Tools and/or --tls when using spearhead-docker/docker commands.
+> As of March 2018 the [ro-1 datacenter](https://eu-ro-1.api.spearhead.cloud) is active. Please note that you should download the latest [cacert.pem](https://curl.haxx.se/docs/caextract.html) from curl.haxx.se and export `export CURL_CA_BUNDLE=~/Downloads/cacert.pem` when using spearhead-compose commands.
 
 Here is our list of public datacenters.
 
@@ -32,5 +32,7 @@ Located in Sofia, Bulgaria.
 * CloudAPI endpoint: ```https://ro-1.spearhead.cloud```
 
 ## Spearhead CNS
-* Public interfaces: ```tbd.```
+* Public interfaces: ```ro-1.on.spearhead.cloud```
 * Private interfaces: ```tbd.```
+
+> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 

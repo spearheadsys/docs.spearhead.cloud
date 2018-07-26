@@ -11,7 +11,7 @@ This document will describe how to set-up a Spearhead Cloud account.
 1. Create a [Spearhead Cloud account](https://spearhead.cloud/start).
 2. Add your SSH key(s).
 
-That is it. Now you are ready to start working with the Spearhead Cloud.
+Now you are ready to start working with the Spearhead Cloud.
 
 ### SSH Keys
 You can use your existing key or create a new one in the Spearhead Cloud Portal.
@@ -41,3 +41,5 @@ You may add your key at a later time by visiting your Profile settings in the Cl
     * Infrastructure container images - are container native Linux and SmartOS systems running on bare-metal. These offer high performance, scalability by allowing on-line resizing and security. Take advantage of preconfigured images for many scopes such as databases and web servers.
     * Hardware virtual machines - these are typical virtual machines that run using KVM. We provide these for legacy systems or workloads that cannot be deployed as containers.
 * package(s) - packages define the resources allocated to an instance.
+
+> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 

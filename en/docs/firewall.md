@@ -79,3 +79,5 @@ More details regarding the fwrules options can be found using ```spearhead fwrul
 
 #### Enabling and Disabling firewall rules
 Firewall rules can be enabled or disabled as required. This can be achievied using the ```spearhead fwrule enable <FWRULE ID>```. Alternatively, disabling a rule would be ```spearhead fwrule disable <FWRULE ID>```.
+
+> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 

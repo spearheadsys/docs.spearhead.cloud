@@ -17,3 +17,5 @@ TBD: Click here for detailed information on how to SSH into your instance.
 All windows instances are preconfigured with RDP access enabled for the Administrator account. Obtain the IP address of your instance and then connect using your preferred RDP client.
 
 ```spearhead instance get <short-id or name>``` and look for the primaryIP field.
+
+> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 

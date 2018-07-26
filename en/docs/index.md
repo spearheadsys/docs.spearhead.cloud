@@ -21,8 +21,14 @@ Our virtualization technology is based on the well known KVM virtualization stac
 ### Network
 Spearhead Cloud provides a complete software-defined-networking stack allowing for full IP stacks, easy management and high performance.
 
+### Volumes
+Spearhead Cloud provides volumes which can be used to store data that can be read or written by any of your instances (hardware virtual machines, infrastructure containers and/or Docker containers).
+
+
 ### Security
 Spearhead Cloud leverages well known Zones technology to keep tenants from seeing each others data but also assures that everyone gets their share of the resources.
 
 ### Debugging and Visibility
 Spearhead Cloud provides complete visibility for your systems and applications though dynamic tracing, complex monitoring and native docker logging.
+
+> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 
