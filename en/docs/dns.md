@@ -16,8 +16,10 @@ Spearhead CNS offers two facilities:
 
 Once activated, running instances in Spearhead Compute Service will be available in DNS using the following FQDN patterns:
 
-<instance name OR alias>.inst.<account uuid OR login_name>.<data center name>.spearhead.cloud
-<service name>.svc.<account uuid OR login_name>.<data center name>.spearhead.cloud
+```<instance name OR alias>.inst.<account uuid OR login_name>.<data center name>.spearhead.cloud```
+
+
+```<service name>.svc.<account uuid OR login_name>.<data center name>.spearhead.cloud```
 
 Here is an example output from `spearhead instance get` <name>:
 ```
@@ -33,4 +35,6 @@ Here is an example output from `spearhead instance get` <name>:
     ]
 ```
 
-> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 
+Notice the last two lines which show the IP of the public interface "cinema.inst.mpana.ro-1.on.spearhead.cloud" and the internal interface on my fabric vlan "mpana-fab-lan.cinema.inst.mpana.ro-1.on.spearhead.cloud".
+
+> Last edit: 2018 Thu 16 Aug 19:00 GMT+3 
