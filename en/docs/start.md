@@ -1,6 +1,6 @@
 # Getting Started
 
-> Get started with the Spearhead Cloud today. Sign-up for a [free trial](https://spearhead.cloud/trial).
+> Get started with the Spearhead Cloud today. Sign-up for a [free trial](https://spearhead.cloud/free-trial).
 
 
 ## Overview
@@ -8,7 +8,7 @@ This document will describe how to set-up a Spearhead Cloud account.
 
 ### Create a Spearhead Cloud  account
 
-1. Create a [Spearhead Cloud account](https://spearhead.cloud/start).
+1. Create a [Spearhead Cloud account](https://spearhead.cloud/free-trial).
 2. Add your SSH key(s).
 
 Now you are ready to start working with the Spearhead Cloud.
@@ -19,11 +19,15 @@ You can use your existing key or create a new one in the Spearhead Cloud Portal.
 * Manually create an SSH key pair from MacOS (or Linux/Unix)
 * Manually create and SSH key pair from Windows
 
-When you create your account you will be asked to add your SSH key. Do not skip this step as the key is required if you wish to log-in to your remote linux/unix systems or if you wish to use the Spearhead Cloud Tools<sub>1<sub>.
-
-You may add your key at a later time by visiting your Profile settings in the Cloud Portal.
+When you login to the customer portal you should add/create your SSH keys before creating any instances by visiting your Profile settings. Do not skip this step as the key is required if you wish to log-in to your remote linux/unix systems or if you wish to use the Spearhead Cloud Tools<sub>1<sub>.
 
 <sup>1</sup><sub>Without these SSH keys uploaded you will not be able to access your instances.</sub>
+
+#### Create SSH Keys (MacOS or Linux/Unix)
+You can create ssh keys using the following command on most unix-like systems:
+
+> ssh-keygen -t rsa 
+
 ### Next steps
 
 * Install the [Spearhead Cloud CLI tools](https://docs.spearhead.cloud/spearhead-cli) and manage your cloud from the command line

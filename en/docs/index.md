@@ -1,6 +1,6 @@
 # Spearhead Cloud Documentation
 
-> Get started with Spearhead Cloud today. Sign-up for a [free trial](https://spearhead.cloud/trial).
+> Get started with Spearhead Cloud today. Sign-up for a [free trial](https://spearhead.cloud/free-trial).
 
 
 ## Overview
@@ -15,7 +15,7 @@ Spearhead Cloud uses Docker-native tools for managing your containers. Now you c
 
 ### Compute
 Spearhead Cloud offers bare metal performance without the use of virtualization for our containers and allows you to resize on-demand without downtime.
-Our virtualization technology is based on the well known KVM virtualization stack and provides close to bare metal performance for your legacy workloads.
+For virtualization workloads our technology is based on the well known KVM and bhyve virtualization stacks and provide close to bare metal performance for your legacy workloads.
 
 
 ### Network
@@ -31,4 +31,5 @@ Spearhead Cloud leverages well known Zones technology to keep tenants from seein
 ### Debugging and Visibility
 Spearhead Cloud provides complete visibility for your systems and applications though dynamic tracing, complex monitoring and native docker logging.
 
-> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 
+> Last edit: 2019 Mon 27 May 21:41:41 +03
+

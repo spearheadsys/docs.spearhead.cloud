@@ -1,4 +1,4 @@
-site_name: Spearhead Cloud (beta) Documentation
+site_name: Spearhead Cloud Documentation
 pages:
   - Spearhead Cloud: index.md
   - Getting Started: start.md
