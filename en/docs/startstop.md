@@ -33,7 +33,7 @@ Using the ```spearhead``` cli tool is the most convenient way to quickly delete 
 ### Delete using the Spearhead Cloud Portal
 TBD: To delete an instance using the Spearhead Cloud Portal
 
-# Restart policies
+## Restart policies
 
 Containers behave a bit differently than virtual machines in Spearhead Cloud when it comes to restart policies. These details will help you when we perform maintenance and you would like your contains to automatically restart (or not):
 
