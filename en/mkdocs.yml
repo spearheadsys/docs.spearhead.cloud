@@ -17,7 +17,14 @@ nav:
   - Spearhead Cloud Tools:
     - Cloud Portal: cloud-portal.md
     - Spearhead CLI: spearhead-cli.md
-    - Spearhead Docker CLI: spearhead-docker-cli.md
+    - Spearhead Docker CLI: docker/spearhead-docker-cli.md
+  - Docker:
+    - Docker Remote API implementation for Spearhead Cloud: docker/docker-remote-api.md
+    - Featues: 
+      - Resource allocation: docker/docker-resource-allocation.md
+      - Log Drivers: docker/log-drivers.md
+      - Networking: docker/docker-networking.md
+    - Divergence: docker/docker-divergence.md
 theme:
   name: 'material'
   palette:

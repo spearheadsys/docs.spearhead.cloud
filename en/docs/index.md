@@ -1,7 +1,6 @@
 # Spearhead Cloud Documentation
 
-> Get started with Spearhead Cloud today. Sign-up for a [free trial](https://spearhead.cloud/free-trial).
-
+> Last edit: Fri Oct 1 14:19:24 EEST 2021
 
 ## Overview
 Spearhead Cloud allows you to quickly and easily set-up high performance bare metal containers and virtual machines.
@@ -31,5 +30,5 @@ Spearhead Cloud leverages well known Zones technology to keep tenants from seein
 ### Debugging and Visibility
 Spearhead Cloud provides complete visibility for your systems and applications though dynamic tracing, complex monitoring and native docker logging.
 
-> Last edit: 2019 Mon 27 May 21:41:41 +03
+
 

@@ -1,8 +1,5 @@
 # Documentație Spearhead Cloud
 
-> Pornește cu un cont Spearhead Cloud astăzi. Înregistrează-te pentru un [cont gratuit](https://spearhead.cloud/trial).
-
-
 ## Ansamblu
 Spearhead Cloud îți permite cea mai rapidă modalitate de a porni containere și
 mașini virtuale de înaltă performanță.

@@ -1,5 +1,7 @@
 # Spearhead Cloud CLI tool
 
+> Last edit: Fri Oct 1 16:05:33 EEST 2021
+
 The Spearhead Cloud CLI tool allows you to manage your Spearhead Cloud infrastructure. While the Cloud Portal is being developed this tool is the preferred method for managing your infrastructure.
 
 > The Spearhead Cloud Portal will provide all of the functionality available via the spearhead cli tool.
@@ -100,5 +102,3 @@ spearhead instance create \
 ```
 ### instance details
 To view all of your instance's details run ```spearhead instance get -j some-instance```. This will give you a full JSON blob of your instance details. You can optionally pipe the instance details output through the ```json``` command and parse or perform other operations.
-
-> Last edit: 2018 Thu 26 Jul 19:48 GMT+3 
